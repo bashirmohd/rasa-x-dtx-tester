@@ -244,6 +244,135 @@
 - What is the opportunity for micro enterprises under the SMEEIS?
 ## intent:cbn_faq_dfd33
 - What are the objectives of SMEEIS?
+
+## intent:cbn_faq_cpr1
+- What is the Consumer Protection Regulation(CPR)?
+- What is the guidelines Consumer Protection Regulation(CPR)?
+## intent:cbn_faq_cpr2
+- What are the objectives of the Consumer Protection Regulation (CPR)?
+- What are the aims of the Consumer Protection Regulation (CPR)?
+## intent:cbn_faq_cpr3
+- Which FSP does the CPR apply to?
+- What FSP does the CPR apply to?
+## intent:cbn_faq_cpr4
+- Are financial services accessible to all consumers?
+- Does all consumers have access to financial services?
+## intent:cbn_faq_cpr5
+- What are basic financial services?
+- What are primary financial services?
+## intent:cbn_faq_cpr6
+- How are lending fees applied on term loans?
+- On term loans how are lending fees applied?
+## intent:cbn_faq_cpr7
+- Can FSP overdraw my account due to charges and fees that are not related to a credit facility?
+- Can FSP overdraw my account due to charges and fees that are not associated to a credit facility?
+## intent:cbn_faq_cpr8
+- Can FSP change terms and conditions of a contract after execution?
+- After execution of a contract can FSP changes terms and conditions?
+## intent:cbn_faq_cpr9
+- How long do FSP have to respond to a request or enquiry by a customer?
+- How long can it take for FSP have to respond to a request or enquiry by a customer?
+## intent:cbn_faq_cpr10
+- How long do FSP have to communicate a decision on application for waivers, extension and other concessions to a customer?
+- How long do FSP have to disclose a decision on application for waivers, extension and other concessions to a customer?
+## intent:cbn_faq_cpr11
+- Can FSP withhold customers fund to secure a loan repayment before its due date?
+- Can FSP detain customers fund to secure a loan repayment before its due date?
+## intent:cbn_faq_cpr12
+- Can FSP charge early liquidation fee for loans granted to individuals and Small and Medium Enterprises?
+- Does FSP charge early liquidation fee for loans granted to individuals and Small and Medium Enterprises?
+## intent:cbn_faq_cpr13
+- What is meant by Unfair Contract Terms?
+- What is the meaning of Unfair Contract Terms?
+## intent:cbn_faq_cpr14
+- Are unfair contract terms binding on the consumer?
+- Are unfair contract terms mandatory on the consumer?
+## intent:cbn_faq_cpr15
+- Are contract terms that conflict with laws and regulations binding on consumers?
+- Are contract terms that conflict with laws and regulations mandatory on consumers?
+## intent:cbn_faq_cpr16
+- Are FSP required to provide oral explanation of documents issued to consumers?
+- Are FSP required to provide verbal explanation of documents issued to consumers?
+## intent:cbn_faq_cpr17
+- Are FSP required to disclose terms and conditions of transaction agreements?
+- Are terms and conditions of transaction agreements required to be disclose by FSP?
+## intent:cbn_faq_cpr18
+- What channels should FSP use for correspondence with consumers?
+- What medium should FSP use for correspondence with consumers?
+## intent:cbn_faq_cpr19
+- Can FSP charge rates and fees different from what is disclosed at the engagement point?
+## intent:cbn_faq_cpr20
+- Can FSP charge customers for advertisement notifications?
+- Does FSP charge customers for advertisement notifications?
+## intent:cbn_faq_cpr21
+- What is Total Cost of a loan?
+- What is overall Cost of a loan?
+## intent:cbn_faq_cpr22
+- How can a consumer know the total cost of a loan before signing the loan contract?
+- What procedure can a consumer follow to know the total cost of a loan before signing the loan contract?
+## intent:cbn_faq_cpr23
+- Can a consumer be given time to review a contract before signing?
+- Can a consumer be review a contract before signing?
+## intent:cbn_faq_cpr24
+- Can a consumer cancel a contract after signing?
+- After signing a contract can a consumer cancel the contract?
+## intent:cbn_faq_cpr25
+- Are FSP required to provide monthly statements of account for all products and services?
+- Are FSP needed to provide monthly statements of account for all products and services?
+## intent:cbn_faq_cpr26
+- Are FSP required to notify consumers of changes in interest rates before implementation?
+- Are FSP needed to notify consumers of changes in interest rates before implementation?
+## intent:cbn_faq_cpr27
+- Are FSP required to notify consumers before applying default charge for none payment of loan obligation?
+- Are FSP needed to notify consumers before applying default charge for none payment of loan obligation?
+## intent:cbn_faq_cpr28
+- How would the customer know the default amount charged?
+- In which way can the customer know the default amount charged?
+## intent:cbn_faq_cpr29
+- How would a customer know the amount he would be repaying for term loans as well as the due date?
+- How would a customer know the total amount he would be repaying for term loans as well as the due date?
+## intent:cbn_faq_cpr30
+- Can a FSP compel consumers to buy an insurance product from a specific Insurance company before a loan is granted?
+- Can a FSP oblige consumers to buy an insurance product from a specific Insurance company before a loan is granted?
+## intent:cbn_faq_cpr31
+- As a guarantor how can I monitor the performance of a loan I guaranteed?
+## intent:cbn_faq_cpr32
+- Are FSP required to notify consumers when they fully repay their loans?
+## intent:cbn_faq_cpr33
+- Are FSP required to provide reasons for declining a loan request?
+## intent:cbn_faq_cpr34
+- Can FSP transfer consumers personal data to a third party without their authorization?
+## intent:cbn_faq_cpr35
+- Whose responsibility is it to protect consumer data?
+## intent:cbn_faq_cpr36
+- What happens if I don't repay my loan?
+## intent:cbn_faq_cpr37
+- Can FSP foreclose without notifying the customer?
+## intent:cbn_faq_cpr38
+- Can FSP contact a friend, family or employer of the customer for repayment of the customer’s loan?
+## intent:cbn_faq_cpr39
+- How will the proceed of foreclosure be utillised?
+## intent:cbn_faq_cpr40
+- Where would consumers lodge their complaints when dissatisfied with a product or service?
+## intent:cbn_faq_cpr41
+- What happens if consumers are not satisfied with the decision of their FSP?
+## intent:cbn_faq_cpr42
+- Are FSP required to acknowledge compliant?
+## intent:cbn_faq_cpr43
+- How do customers report time sensitive issues such as fraud or compromise of confidential information to their FSP for immediate intervention?
+## intent:cbn_faq_cpr44
+- Should FSP provide a report after resolving my complaint?
+## intent:cbn_faq_cpr45
+- What would a consumer do when he/she is not satisfied with a FSP decision?
+## intent:cbn_faq_cpr46
+- What happens if the customer is still not satisfied after the second review of the complaint?
+## intent:cbn_faq_cpr47
+- What happens if the customer is still not satisfied after the second review of the complaint?
+## intent:cbn_faq_cpr48
+- Are there reasons why a customer cannot escalate a complaint to the CBN?
+## intent:cbn_faq_cpr49
+- Are there penalties for FSP that do not comply or violate the guidelines?
+
 ## intent:cbn_inf_rate
 - What is the current inflation rate
 - can you please tell me the latest inflation rate

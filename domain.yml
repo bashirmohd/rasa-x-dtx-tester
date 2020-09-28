@@ -214,6 +214,171 @@ responses:
   - text: The Central Bank of Nigeria derives its regulatory and supervisory powers
       from the Central Bank of Nigeria Act, 1991 and Banks and Other Financial Institutions
       Act, 1991 (As Amended).
+  utter_cbn_faq_cpr1:
+    - text: The CPR are set of guidelines issued by the Central Bank of Nigeria
+        (CBN) to guide the conduct of Financial Service Providers (FSP) to
+    engender consumer protection and confidence in their relationship with
+    their customers.
+  utter_cbn_faq_cpr2:
+    - text: The broad objective of the CPR is to protect consumers against unfair
+        and unethical practices by FSP.
+  utter_cbn_faq_cpr3:
+    - text: CPR applies to all financial institution licensed and or regulated by the
+        Central Bank of Nigeria (CBN) which include banks, micro finance
+    banks, primary mortgage banks, finance companies etc.
+  utter_cbn_faq_cpr4:
+    - text: Yes, basic financial services are accessible to all consumers who meet
+        the minimum requirements irrespective of their social status and
+    physical ability etc.
+  utter_cbn_faq_cpr5:
+    - text: These are savings, deposits and transfers.
+  utter_cbn_faq_cpr6:
+    - text: Lending fees can only be applied on disbursed amount of a loan.
+  utter_cbn_faq_cpr7:
+    - text: No, FSP can only charge non-credit related fees to the extent of the
+        credit balance in an account; while the balance of such fees can be
+    charged when the account is funded.
+  utter_cbn_faq_cpr8:
+    - text: FSP can only change the terms and conditions of a contract if the
+        possibility of such change(s) or variation(s) had been expressly stated
+    in the contract.
+  utter_cbn_faq_cpr9:
+    - text: Requests or enquiries should be responded to within Five (5) working days.
+  utter_cbn_faq_cpr10:
+    - text: FSP have to communicate decisions within ten (10) working days failing
+        which the customer application would be deemed have been granted.
+  utter_cbn_faq_cpr11:
+    - text: No, except with a written authorization of the customer.
+  utter_cbn_faq_cpr12:
+    - text: No. except if the loans have a fixed interest rate (i.e. interest rates that
+        are not subject to variations).
+  utter_cbn_faq_cpr13:
+    - text: These are terms that are detrimental to the consumer by creating
+        imbalances in the rights and obligations of the consumer under the contract.
+  utter_cbn_faq_cpr14:
+    - text: No.
+  utter_cbn_faq_cpr15:
+    - text: No.
+  utter_cbn_faq_cpr16:
+    - text: Yes, at the consumer’s request or where it is obvious that the consumer
+        requires such explanation e.g. a visually impaired or illiterate consumer.
+  utter_cbn_faq_cpr17:
+    - text: Yes. In addition, FSP should disclose features, fees and other
+        associated charges of their products and services.
+  utter_cbn_faq_cpr18:
+    - text: The communication channels for all correspondences should be agreed
+        with the consumer and disclosed in all contract documents.
+  utter_cbn_faq_cpr19:
+    - text: No, FSP should comply with the rate, fees and charges published at
+        their engagement point.
+  utter_cbn_faq_cpr20:
+    - text: No. In addition, FSP should provide consumers with an option to opt
+        out from receiving advertisement and marketing materials.
+  utter_cbn_faq_cpr21:
+    - text: Total cost of loan is made up of total interest to be paid throughout
+        the duration of the loan, other fees and charges by the FSP and
+    third-party charges where applicable 
+  utter_cbn_faq_cpr22:
+    - text: FSP should provide a Key Fact Statement that will disclose the total
+        cost of the loan.
+  utter_cbn_faq_cpr23:
+    - text: Yes, FSP should allow consumers two (2) days to review a draft
+        contract from the date of receipt.
+  utter_cbn_faq_cpr24:
+    - text: Yes, a consumer has a cooling-off period of three (3) days after signing
+        a contract within which to cancel the contract at no cost. However, this
+    is only applicable to a credit contract.
+  utter_cbn_faq_cpr25:
+    - text: Yes, FSP should provide monthly statements for all accounts including
+        loans, deposits etc.
+  utter_cbn_faq_cpr26:
+    - text: Yes. FSP should notify consumers ten (10) days for banks and five (5)
+        days for other financial institutions before implementing the change. 
+    Other financial institutions should notify consumers within one (1) day
+    of default that default charge would be applied on their accounts after three
+    (3) days from the repayment due date.
+  utter_cbn_faq_cpr27:
+    - text: Yes. Banks should notify consumers within three (3) days of default
+        that default charge would be applied on their accounts after seven (7)
+    days from the repayment due date.
+  utter_cbn_faq_cpr28:
+    - text: FSP should disclose default charges separate from the normal interest
+        charge in the customer’s statement of account.
+  utter_cbn_faq_cpr29:
+    - text: FSP should provide customers with a loan repayment schedule, that
+        would disclose the amounts to be repaid by the customer and the due
+    date for each repayment/installment.
+  utter_cbn_faq_cpr30:
+    - text: No. FSP should provide consumer with at least three (3) insurance
+        providers to choose from.
+  utter_cbn_faq_cpr31:
+    - text: FSP should provide guarantors with periodic updates on loan status
+        they guaranteed to enable them to assess the likelihood of being called
+    upon to repay.
+  utter_cbn_faq_cpr32:
+    - text: Yes, FSP should issue a Letter of Discharge to customers who have
+        finished repaying their loans within five days from the date of their final
+    repayment.
+  utter_cbn_faq_cpr33:
+    - text: Yes, FSP should notify consumers when their loan requests are
+        declined. However, the reason for the decline can be provided on request.
+  utter_cbn_faq_cpr34:
+    - text: No. Except in compliance with a legal obligation.
+  utter_cbn_faq_cpr35:
+    - text: FSP should protect the privacy and confidentiality of a consumer
+        information. However, consumer also have a responsibility to protect
+    their data and other banking instruments by not disclosing them to
+    unauthorised persons.
+  utter_cbn_faq_cpr36:
+    - text: It will affect your credit history  *        Default charges can be applied
+        on your account, thus increasing your indebtedness .   The FSP can sell
+    off the asset used as a collateral for the loan to recover outstanding
+    loan balance (i.e. foreclosure).
+  utter_cbn_faq_cpr37:
+    - text: No. FSP should notify the customer before foreclosure. In addition,
+        customers should be given the option to sell off the asset within thirty
+    (30) days, except if the customer waives the option.
+  utter_cbn_faq_cpr38:
+    - text: No. Only if the person has guaranteed the loan.
+  utter_cbn_faq_cpr39:
+    - text: Proceeds of sale of the collateral should be immediately applied to the
+        loan account and customers provided with a report of the sale which
+    should disclose the process, proceeds, incidental expenses and the balance.
+  utter_cbn_faq_cpr40:
+    - text: Consumers should first lodge complaints with their FSP using any of the channels provided by
+        the FSP e.g. phone calls, emails, formal letter etc.
+  utter_cbn_faq_cpr41:
+    - text: Consumers can escalate their complaints to the Central Bank of Nigeria.
+  utter_cbn_faq_cpr42:
+    - text: Yes, FSP should acknowledge and issue a unique identification number
+        for all complaints to their customers within 24hours.
+  utter_cbn_faq_cpr43:
+    - text: FSP should provide emergency channels e.g. fraud hot lines for
+        reporting such issues. Customers should familiarise themselves with the
+    emergency numbers provided.
+  utter_cbn_faq_cpr44:
+    - text: Yes. FSP should provide a Summary Resolution Communication (SRC)
+        for resolved complaints to consumers within 24hours. The SRC should
+    state the FSP basis for their decision, an option for the consumer
+    to call for a second level review of their complaints and the right
+    of escalation to the CBN or other Alternative Dispute Resolution avenues.
+  utter_cbn_faq_cpr45:
+    - text: The consumer has thirty (30) days to request for another review of the
+        complaint by the FSP. 
+  utter_cbn_faq_cpr46:
+    - text: The customer has 90 days from the date of the FSP first decision to
+        escalate the complaint to the CBN.
+  utter_cbn_faq_cpr47:
+    - text: Yes. If the FSP failed to acknowledge the customer complaints within 3 days.
+  utter_cbn_faq_cpr48:
+    - text: If the subject matter of the complaint is under litigation or has been
+        decided by a court of law.  If the complaint is being treated or decided
+    by a recognized Alternative Dispute Resolution channel.
+  utter_cbn_faq_cpr49:
+    - text: Yes.
+
+
+
   utter_cbn_inf_rate:
   - text: As at July 2020, Inflation rate  is 12.82%.
   utter_cbn_mpr_rate:
