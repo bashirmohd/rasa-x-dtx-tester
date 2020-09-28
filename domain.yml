@@ -229,7 +229,7 @@ responses:
   utter_goodbye:
   - text: It was nice talking to you today! Have a nice day! Bye for now.
   utter_greet:
-  - text: Hi, how can I help you today?
+  - text: Hello, how can I help you today?
   utter_happy:
   - buttons:
     - payload: /goodbye
