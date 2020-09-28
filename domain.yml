@@ -89,7 +89,7 @@ actions:
   - utter_cbn_faq_cpr33
   - utter_cbn_faq_cpr34
   - utter_cbn_faq_cpr35
-  - utter_cbn_faq_dfd36
+  - utter_cbn_faq_cpr36
   - utter_cbn_faq_cpr37
   - utter_cbn_faq_cpr38
   - utter_cbn_faq_cpr39
@@ -182,7 +182,7 @@ intents:
   - cbn_faq_cpr19
   - cbn_faq_cpr20
   - cbn_faq_cpr21
-  - cbn_faq_dfd22
+  - cbn_faq_cpr22
   - cbn_faq_cpr23
   - cbn_faq_cpr24
   - cbn_faq_cpr25
