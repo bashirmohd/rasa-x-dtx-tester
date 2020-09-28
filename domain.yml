@@ -75,7 +75,7 @@ actions:
   - utter_cbn_faq_cpr19
   - utter_cbn_faq_cpr20
   - utter_cbn_faq_cpr21
-  - utter_cbn_faq_dfd22
+  - utter_cbn_faq_cpr22
   - utter_cbn_faq_cpr23
   - utter_cbn_faq_cpr24
   - utter_cbn_faq_cpr25
@@ -161,6 +161,55 @@ intents:
   - cbn_exchange_rate
   - cbn_mpr_rate
   - cbn_oil_price_rate
+  - cbn_faq_cpr1
+  - cbn_faq_cpr2
+  - cbn_faq_cpr3
+  - cbn_faq_cpr4
+  - cbn_faq_cpr5
+  - cbn_faq_cpr6
+  - cbn_faq_cpr7
+  - cbn_faq_cpr8
+  - cbn_faq_cpr9
+  - cbn_faq_cpr10
+  - cbn_faq_cpr11
+  - cbn_faq_cpr12
+  - cbn_faq_cpr13
+  - cbn_faq_cpr14
+  - cbn_faq_cpr15
+  - cbn_faq_cpr16
+  - cbn_faq_cpr17
+  - cbn_faq_cpr18
+  - cbn_faq_cpr19
+  - cbn_faq_cpr20
+  - cbn_faq_cpr21
+  - cbn_faq_dfd22
+  - cbn_faq_cpr23
+  - cbn_faq_cpr24
+  - cbn_faq_cpr25
+  - cbn_faq_cpr26
+  - cbn_faq_cpr27
+  - cbn_faq_cpr28
+  - cbn_faq_cpr29
+  - cbn_faq_cpr30
+  - cbn_faq_cpr31
+  - cbn_faq_cpr32
+  - cbn_faq_cpr33
+  - cbn_faq_cpr34
+  - cbn_faq_cpr35
+  - cbn_faq_dfd36
+  - cbn_faq_cpr37
+  - cbn_faq_cpr38
+  - cbn_faq_cpr39
+  - cbn_faq_cpr40
+  - cbn_faq_cpr41
+  - cbn_faq_cpr42
+  - cbn_faq_cpr43
+  - cbn_faq_cpr44
+  - cbn_faq_cpr45
+  - cbn_faq_cpr46
+  - cbn_faq_cpr47
+  - cbn_faq_cpr48
+  - cbn_faq_cpr49
 responses:
   utter_carryon:
     -
