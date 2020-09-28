@@ -1,534 +1,500 @@
-session_config:
-  session_expiration_time: 60
-  carry_over_slots_to_new_session: true
-intents:
-- get_started
-- out_of_scope
-- greet
-- affirm
-- deny
-- mood_great
-- mood_unhappy
-- bot_challenge
-- goodbye
-- carryon
-- cbnweb
-- cbn_faq_it1
-- cbn_faq_it2
-- cbn_faq_it3
-- cbn_faq_it4
-- cbn_faq_it5
-- cbn_faq_lc1
-- cbn_faq_lc2
-- cbn_faq_dfd1
-- cbn_faq_dfd2
-- cbn_faq_dfd3
-- cbn_faq_dfd4
-- cbn_faq_dfd5
-- cbn_faq_dfd6
-- cbn_faq_dfd7
-- cbn_faq_dfd8
-- cbn_faq_dfd9
-- cbn_faq_dfd10
-- cbn_faq_dfd11
-- cbn_faq_dfd12
-- cbn_faq_dfd13
-- cbn_faq_dfd14
-- cbn_faq_dfd15
-- cbn_faq_dfd16
-- cbn_faq_dfd17
-- cbn_faq_dfd18
-- cbn_faq_dfd19
-- cbn_faq_dfd20
-- cbn_faq_dfd21
-- cbn_faq_dfd22
-- cbn_faq_dfd23
-- cbn_faq_dfd24
-- cbn_faq_dfd25
-- cbn_faq_dfd26
-- cbn_faq_dfd27
-- cbn_faq_dfd28
-- cbn_faq_dfd29
-- cbn_faq_dfd30
-- cbn_faq_dfd31
-- cbn_faq_dfd32
-- cbn_faq_dfd33
-- cbn_inf_rate
-- cbn_exchange_rate
-- cbn_mpr_rate
-- cbn_oil_price_rate
-entities:
-- https
-responses:
-  utter_cbn_exchange_rate:
-  - text: As at September 04, the rate is N379.
-  utter_cbn_faq_dfd1:
-  - text: ABP Stands for the Anchor Borrowers Program.
-  utter_cbn_faq_dfd2:
-  - text: ​MSMEDEF, stands for Micro, Small and Medium Enterprise Development fund.
-  utter_cbn_faq_dfd3:
-  - text: 'The Agricultural Credit Guarantee Scheme Fund (ACGSF) was established by
-      Decree No. 20 of 1977 to mitigate the risks of banks in agricultural lending
-      and hence encourage them to continue to extend credit to it. '
-  utter_cbn_faq_dfd4:
-  - text: You can go to any commercial bank or Central Bank branch office in Nigeria
-      and make enquiries there.
-  utter_cbn_faq_dfd5:
-  - text: You must be a farmer. You must provide collateral if your loan amount is
-      above N20,000. The collateral must be in a tangible form or in form of 25% cash
-      security of the intended loan amount in the form of savings.
-  utter_cbn_faq_dfd6:
-  - text: Small farmers have benefited immensely from ACGS. This group of farmers
-      form 90% of the beneficiaries since the inception of the Scheme.
-  utter_cbn_faq_dfd7:
-  - text: N20,000.00 (twenty thousand naira) and below without collateral. For amounts
-      higher than N20,000.00, you will need to provide collateral.
-  utter_cbn_faq_dfd8:
-  - text: A farmer intending to obtain a loan must first open account with a bank
-      operating the Agric Credit Guarantee Scheme. You should the  ACGS application
-      form and return to the bank.
-  utter_cbn_faq_dfd9:
-  - text: 'By establishing a Trust Fund with banks that will serve as the platform
-      for lending to the host community, the Trust Fund will form part of the guarantee. '
-  utter_cbn_faq_dfd10:
-  - text: You must be a farmer. You must provide collateral if your loan amount is
-      above N20,000. The collateral must be in a tangible form or in form of 25% cash
-      security of the intended loan amount in the form of savings.
-  utter_cbn_faq_dfd11:
-  - text: You can use cash in the bank, stock and shares, life insurance policies,
-      landed property, debenture, guarantors and any other item acceptable by the
-      lending bank.
-  utter_cbn_faq_dfd12:
-  - text: The agricultural activities eligible for guarantee under the Scheme, include
-      the following; (i) The establishment or management of the production of rubber,
-      oil palm, cocoa, coffee, tea and similar crops; (ii) The cultivation or production
-      of cereal crops, tubers, fruits of all kinds, cotton, beans, groundnuts, sheanuts,
-      benniseed, vegetables, pineapples, banana and plantains; (iii) Animal husbandry
-      viz, poultry, piggery, cattle rearing and the like, fish farming and fish capture
-      and (iv) Processing in general where it is integrated with at least 50.0 per
-      cent of farm output e.g. cassava to garri, oil palm to palm oil and kernel,
-      groundnut to groundnut oil, etc.
-  utter_cbn_faq_dfd13:
-  - text: Under the ACGSF, farmers will borrow from lending banks including community
-      banks at market-determined rates.
-  utter_cbn_faq_dfd14:
-  - text: As many times as you wish provided you maintained good loan repayment record
-      with your bank.
-  utter_cbn_faq_dfd15:
-  - text: You will need to discuss your proposal with your bank, complete necessary
-      application forms, and provide all the required information including things
-      like size of your farm, project cost, your own financial commitment, expected
-      output returns and profitability of the project.
-  utter_cbn_faq_dfd16:
-  - text: It depends on the gestation period of the agricultural activity you are
-      engaged in.
-  utter_cbn_faq_dfd17:
-  - text: You can still obtain a loan of N20,000.00 and below supported with a personal
-      guarantee from a reputable person in your community or more than N20,000.00
-      through being a member of Self Help Group or Cooperative Society.
-  utter_cbn_faq_dfd18:
-  - text: It means you can obtain a loan of up to N1.0 million as an individual or
-      up to N10.0 million as a cooperative society or corporate entity.
-  utter_cbn_faq_dfd19:
-  - text: The Central Bank of Nigeria co-ordinates the activities of the Scheme through
-      its Development Finance Department which serves as the Secretariat of the Bankers
-      Sub-committee on SMEEIS.
-  utter_cbn_faq_dfd20:
-  - text: Until 2005 universal banks (members of the Bankers’ Committee) agreed to
-      set aside 10% of their profit before Tax (PBT) annually for the Scheme. With
-      effect from January, 2006 the amount to be set aside by the banks has been changed
-      to 10% of their profit after Tax (PAT).
-  utter_cbn_faq_dfd21:
-  - text: You can discuss with registered professional Fund Managers and Venture Capital
-      Companies which are either independent institutions or subsidiaries of the banks.
-  utter_cbn_faq_dfd22:
-  - text: To be eligible for bank’s investment under the Scheme, an enterprise, in
-      addition to being a permissible activity under the Scheme, must have a maximum
-      asset base of N500 million (excluding land and working capital), and with no
-      lower limit of staff. In addition, the enterprise must fulfill the following;
-      a. Registration as a Limited Liability Company with Corporate Affairs Commission.
-      b. Compliance with all relevant regulations of the Company and Allied Matters
-      Acts (1990) such as filling of annual returns, including audited financial statements.
-      c. Compliance with all applicable tax laws and regulations and rendition of
-      regular returns to the appropriate authorities.
-  utter_cbn_faq_dfd23:
-  - text: The bank has a maximum of three (3) years to remain a part owner of the
-      business before the exit strategy as contained in the Memorandum of Understanding
-      (MOU) binding the business relationship. However, if the other party so wishes,
-      the equity arrangement could be renewed. The exit is by selling its shares to
-      the original or owners of the company.
-  utter_cbn_faq_dfd24:
-  - text: Every legal business in every sector of the economy is qualified for adoption
-      as a SMEEIS project with the exception of trading and financial/bank related
-      investment.
-  utter_cbn_faq_dfd25:
-  - text: a) Prepare a feasibility report, b) Prepare a 5 year business plan stating
-      the intervention required under the SMEEIS, c) Approach any of the banks in
-      Nigeria, d) The bank will then assess the proposals and communicate approval
-      or otherwise to you.
-  utter_cbn_faq_dfd26:
-  - text: The SMEEIS guidelines allow investing banks to own either ordinary or preferential
-      shares.
-  utter_cbn_faq_dfd27:
-  - text: The SMEEIS fund is part of the SMEEIS Reserves of the banks.
-  utter_cbn_faq_dfd28:
-  - text: The CBN has a register for verified and accepted projects under SMEEIS.
-  utter_cbn_faq_dfd29:
-  - text: The total amount set aside under the SMEEIS by any bank is always stated
-      in its annual audited accounts under SMEEIS Reserve.
-  utter_cbn_faq_dfd30:
-  - text: 'The Agricultural Credit Guarantee Scheme Fund (ACGSF) was established by
-      Decree No. 20 of 1977 to mitigate the risks of banks in agricultural lending
-      and hence encourage them to continue to extend credit to it. '
-  utter_cbn_faq_dfd31:
-  - text: SMEEIS means Small and Medium Enterprises Equity Investment Scheme. It was
-      initiated by the Banker’s Committee at its 246th meeting held on 21st December,
-      1999.
-  utter_cbn_faq_dfd32:
-  - text: The guidelines stipulate that 10% SMEEIS funds should be set aside for micro
-      financing in the form of equity investment in microfinance banks or wholesale
-      funds for on-lending by microfinance banks.
-  utter_cbn_faq_dfd33:
-  - text: The objectives are to a) Facilitate the flow of funds from banks for the
-      establishment of new, viable SME projects, expansion of existing industries
-  utter_cbn_faq_it1:
-  - text: Enterprise Resource Planning (ERP) 2. Temenos T24 3. electonic Financial
-      Analysis and Surveillance System (eFASS) 4. Real Time Gross Settlement System
-      (RTGS) 5. Enterprise Management and Security System EMS) 6. Corporate Performance
-      Management System (CPM)
-  utter_cbn_faq_it2:
-  - text: It is an acronym for electronic Financial Analysis and Surveillance System.
-  utter_cbn_faq_it3:
-  - text: It is an acronym for Enterprise Resource Planning.
-  utter_cbn_faq_it4:
-  - text: RTGS is an acronym for Real Time Gross Settlement.
-  utter_cbn_faq_it5:
-  - text: It is an acronym for TEMENOS T24. It is being interfaced with a number of
-      applications being deployed in the Bank. These include Oracle ERP (GL, VMS,
-      AP, etc); RTGS; eFASS; MICR; BANKOS.
-  utter_cbn_faq_lc1:
-  - text: Yes. As a legal entity created by an Act of Parliament the Central Bank
-      of Nigeria is a juristic person and can therefore sue and be sued as stated
-      in section 1(2) of the Central Bank of Nigeria Act.
-  utter_cbn_faq_lc2:
-  - text: The Central Bank of Nigeria derives its regulatory and supervisory powers
-      from the Central Bank of Nigeria Act, 1991 and Banks and Other Financial Institutions
-      Act, 1991 (As Amended).
-  utter_cbn_faq_cpr1:
-    - text: The CPR are set of guidelines issued by the Central Bank of Nigeria
-        (CBN) to guide the conduct of Financial Service Providers (FSP) to
-    engender consumer protection and confidence in their relationship with
-    their customers.
-  utter_cbn_faq_cpr2:
-    - text: The broad objective of the CPR is to protect consumers against unfair
-        and unethical practices by FSP.
-  utter_cbn_faq_cpr3:
-    - text: CPR applies to all financial institution licensed and or regulated by the
-        Central Bank of Nigeria (CBN) which include banks, micro finance
-    banks, primary mortgage banks, finance companies etc.
-  utter_cbn_faq_cpr4:
-    - text: Yes, basic financial services are accessible to all consumers who meet
-        the minimum requirements irrespective of their social status and
-    physical ability etc.
-  utter_cbn_faq_cpr5:
-    - text: These are savings, deposits and transfers.
-  utter_cbn_faq_cpr6:
-    - text: Lending fees can only be applied on disbursed amount of a loan.
-  utter_cbn_faq_cpr7:
-    - text: No, FSP can only charge non-credit related fees to the extent of the
-        credit balance in an account; while the balance of such fees can be
-    charged when the account is funded.
-  utter_cbn_faq_cpr8:
-    - text: FSP can only change the terms and conditions of a contract if the
-        possibility of such change(s) or variation(s) had been expressly stated
-    in the contract.
-  utter_cbn_faq_cpr9:
-    - text: Requests or enquiries should be responded to within Five (5) working days.
-  utter_cbn_faq_cpr10:
-    - text: FSP have to communicate decisions within ten (10) working days failing
-        which the customer application would be deemed have been granted.
-  utter_cbn_faq_cpr11:
-    - text: No, except with a written authorization of the customer.
-  utter_cbn_faq_cpr12:
-    - text: No. except if the loans have a fixed interest rate (i.e. interest rates that
-        are not subject to variations).
-  utter_cbn_faq_cpr13:
-    - text: These are terms that are detrimental to the consumer by creating
-        imbalances in the rights and obligations of the consumer under the contract.
-  utter_cbn_faq_cpr14:
-    - text: No.
-  utter_cbn_faq_cpr15:
-    - text: No.
-  utter_cbn_faq_cpr16:
-    - text: Yes, at the consumer’s request or where it is obvious that the consumer
-        requires such explanation e.g. a visually impaired or illiterate consumer.
-  utter_cbn_faq_cpr17:
-    - text: Yes. In addition, FSP should disclose features, fees and other
-        associated charges of their products and services.
-  utter_cbn_faq_cpr18:
-    - text: The communication channels for all correspondences should be agreed
-        with the consumer and disclosed in all contract documents.
-  utter_cbn_faq_cpr19:
-    - text: No, FSP should comply with the rate, fees and charges published at
-        their engagement point.
-  utter_cbn_faq_cpr20:
-    - text: No. In addition, FSP should provide consumers with an option to opt
-        out from receiving advertisement and marketing materials.
-  utter_cbn_faq_cpr21:
-    - text: Total cost of loan is made up of total interest to be paid throughout
-        the duration of the loan, other fees and charges by the FSP and
-    third-party charges where applicable 
-  utter_cbn_faq_cpr22:
-    - text: FSP should provide a Key Fact Statement that will disclose the total
-        cost of the loan.
-  utter_cbn_faq_cpr23:
-    - text: Yes, FSP should allow consumers two (2) days to review a draft
-        contract from the date of receipt.
-  utter_cbn_faq_cpr24:
-    - text: Yes, a consumer has a cooling-off period of three (3) days after signing
-        a contract within which to cancel the contract at no cost. However, this
-    is only applicable to a credit contract.
-  utter_cbn_faq_cpr25:
-    - text: Yes, FSP should provide monthly statements for all accounts including
-        loans, deposits etc.
-  utter_cbn_faq_cpr26:
-    - text: Yes. FSP should notify consumers ten (10) days for banks and five (5)
-        days for other financial institutions before implementing the change. 
-    Other financial institutions should notify consumers within one (1) day
-    of default that default charge would be applied on their accounts after three
-    (3) days from the repayment due date.
-  utter_cbn_faq_cpr27:
-    - text: Yes. Banks should notify consumers within three (3) days of default
-        that default charge would be applied on their accounts after seven (7)
-    days from the repayment due date.
-  utter_cbn_faq_cpr28:
-    - text: FSP should disclose default charges separate from the normal interest
-        charge in the customer’s statement of account.
-  utter_cbn_faq_cpr29:
-    - text: FSP should provide customers with a loan repayment schedule, that
-        would disclose the amounts to be repaid by the customer and the due
-    date for each repayment/installment.
-  utter_cbn_faq_cpr30:
-    - text: No. FSP should provide consumer with at least three (3) insurance
-        providers to choose from.
-  utter_cbn_faq_cpr31:
-    - text: FSP should provide guarantors with periodic updates on loan status
-        they guaranteed to enable them to assess the likelihood of being called
-    upon to repay.
-  utter_cbn_faq_cpr32:
-    - text: Yes, FSP should issue a Letter of Discharge to customers who have
-        finished repaying their loans within five days from the date of their final
-    repayment.
-  utter_cbn_faq_cpr33:
-    - text: Yes, FSP should notify consumers when their loan requests are
-        declined. However, the reason for the decline can be provided on request.
-  utter_cbn_faq_cpr34:
-    - text: No. Except in compliance with a legal obligation.
-  utter_cbn_faq_cpr35:
-    - text: FSP should protect the privacy and confidentiality of a consumer
-        information. However, consumer also have a responsibility to protect
-    their data and other banking instruments by not disclosing them to
-    unauthorised persons.
-  utter_cbn_faq_cpr36:
-    - text: It will affect your credit history  *        Default charges can be applied
-        on your account, thus increasing your indebtedness .   The FSP can sell
-    off the asset used as a collateral for the loan to recover outstanding
-    loan balance (i.e. foreclosure).
-  utter_cbn_faq_cpr37:
-    - text: No. FSP should notify the customer before foreclosure. In addition,
-        customers should be given the option to sell off the asset within thirty
-    (30) days, except if the customer waives the option.
-  utter_cbn_faq_cpr38:
-    - text: No. Only if the person has guaranteed the loan.
-  utter_cbn_faq_cpr39:
-    - text: Proceeds of sale of the collateral should be immediately applied to the
-        loan account and customers provided with a report of the sale which
-    should disclose the process, proceeds, incidental expenses and the balance.
-  utter_cbn_faq_cpr40:
-    - text: Consumers should first lodge complaints with their FSP using any of the channels provided by
-        the FSP e.g. phone calls, emails, formal letter etc.
-  utter_cbn_faq_cpr41:
-    - text: Consumers can escalate their complaints to the Central Bank of Nigeria.
-  utter_cbn_faq_cpr42:
-    - text: Yes, FSP should acknowledge and issue a unique identification number
-        for all complaints to their customers within 24hours.
-  utter_cbn_faq_cpr43:
-    - text: FSP should provide emergency channels e.g. fraud hot lines for
-        reporting such issues. Customers should familiarise themselves with the
-    emergency numbers provided.
-  utter_cbn_faq_cpr44:
-    - text: Yes. FSP should provide a Summary Resolution Communication (SRC)
-        for resolved complaints to consumers within 24hours. The SRC should
-    state the FSP basis for their decision, an option for the consumer
-    to call for a second level review of their complaints and the right
-    of escalation to the CBN or other Alternative Dispute Resolution avenues.
-  utter_cbn_faq_cpr45:
-    - text: The consumer has thirty (30) days to request for another review of the
-        complaint by the FSP. 
-  utter_cbn_faq_cpr46:
-    - text: The customer has 90 days from the date of the FSP first decision to
-        escalate the complaint to the CBN.
-  utter_cbn_faq_cpr47:
-    - text: Yes. If the FSP failed to acknowledge the customer complaints within 3 days.
-  utter_cbn_faq_cpr48:
-    - text: If the subject matter of the complaint is under litigation or has been
-        decided by a court of law.  If the complaint is being treated or decided
-    by a recognized Alternative Dispute Resolution channel.
-  utter_cbn_faq_cpr49:
-    - text: Yes.
-
-
-
-  utter_cbn_inf_rate:
-  - text: As at July 2020, Inflation rate  is 12.82%.
-  utter_cbn_mpr_rate:
-  - text: As at August 28, MPR rate is 12.5%.
-  utter_cbn_oil_price_rate:
-  - text: As at August 28, crude oil price is $44.94.
-  utter_cheer_up:
-  - image: https://i.imgur.com/nGF1K8f.jpg
-    text: 'Here is something to cheer you up:'
-  utter_did_that_help:
-  - text: Please contact us via [contactcbn@cbn.gov.ng] or [+234 700 225 5226]. Did
-      that help you?
-  utter_goodbye:
-  - text: It was nice talking to you today! Have a nice day! Bye for now.
-  utter_greet:
-  - text: Hello, how can I help you today?
-  utter_happy:
-  - buttons:
-    - payload: /goodbye
-      title: No
-    - payload: /carryon
-      title: Yes
-    text: It was nice talking to you today ! Do you have any more questions?
-  utter_iamabot:
-  - text: I am a bot, powered by the DTx team
-  utter_carryon:
-  - text: Great! please go ahead and ask your questions.
-  utter_cbnweb:
-  - text: Please visit [www.cbn.gov.ng](https://www.cbn.gov.ng/) for general enquiries
-      or contact us via [contactcbn@cbn.gov.ng] or [+234 700 225 5226] to speak with
-      our HelpDesk.
-  utter_fallback:
-  - text: Not sure what you mean! Please visit [www.cbn.gov.ng](https://www.cbn.gov.ng/)
-      for general enquiries or contact us via [contactcbn@cbn.gov.ng] or [+234 700
-      225 5226] for more details.
-  utter_welcome_message:
-  - buttons:
-    - payload: /carryon
-      title: Farmer Queries(DFD)
-    - payload: /carryon
-      title: Consumer Protection(CPD)
-    - payload: /cbnweb
-      title: General Enquiries
-    - payload: /carryon
-      title: Forex Helpdesk
-    - payload: /goodbye
-      title: Goodbye
-    text: Hello! I am Rakiya! Your AI-Bot assistant. How can I help you today?
+---
 actions:
-- utter_greet
-- utter_goodbye
-- utter_carryon
-- utter_cbnweb
-- utter_iamabot
-- utter_cheer_up
-- utter_welcome_message
-- utter_did_that_help
-- utter_fallback
-- action_my_fallback
-- utter_cbn_faq_it2
-- utter_cbn_faq_it1
-- utter_cbn_faq_it3
-- utter_cbn_faq_it4
-- utter_cbn_faq_it5
-- utter_cbn_faq_lc1
-- utter_cbn_faq_lc2
-- utter_cbn_faq_dfd1
-- utter_cbn_faq_dfd2
-- utter_cbn_faq_dfd3
-- utter_cbn_faq_dfd4
-- utter_cbn_faq_dfd5
-- utter_cbn_faq_dfd6
-- utter_cbn_faq_dfd7
-- utter_cbn_faq_dfd8
-- utter_cbn_faq_dfd9
-- utter_cbn_faq_dfd10
-- utter_cbn_faq_dfd11
-- utter_cbn_faq_dfd12
-- utter_cbn_faq_dfd13
-- utter_cbn_faq_dfd14
-- utter_cbn_faq_dfd15
-- utter_cbn_faq_dfd16
-- utter_cbn_faq_dfd17
-- utter_cbn_faq_dfd18
-- utter_cbn_faq_dfd19
-- utter_cbn_faq_dfd20
-- utter_cbn_faq_dfd21
-- utter_cbn_faq_dfd22
-- utter_cbn_faq_dfd23
-- utter_cbn_faq_dfd24
-- utter_cbn_faq_dfd25
-- utter_cbn_faq_dfd26
-- utter_cbn_faq_dfd27
-- utter_cbn_faq_dfd28
-- utter_cbn_faq_dfd29
-- utter_cbn_faq_dfd30
-- utter_cbn_faq_dfd31
-- utter_cbn_faq_dfd32
-- utter_cbn_faq_dfd33
-- utter_cbn_inf_rate
-- utter_cbn_exchange_rate
-- utter_cbn_mpr_rate
-- utter_cbn_oil_price_rate
-
-- utter_cbn_faq_cpr1
-- utter_cbn_faq_cpr2
-- utter_cbn_faq_cpr3
-- utter_cbn_faq_cpr4
-- utter_cbn_faq_cpr5
-- utter_cbn_faq_cpr6
-- utter_cbn_faq_cpr7
-- utter_cbn_faq_cpr8
-- utter_cbn_faq_cpr9
-- utter_cbn_faq_cpr10
-- utter_cbn_faq_cpr11
-- utter_cbn_faq_cpr12
-- utter_cbn_faq_cpr13
-- utter_cbn_faq_cpr14
-- utter_cbn_faq_cpr15
-- utter_cbn_faq_cpr16
-- utter_cbn_faq_cpr17
-- utter_cbn_faq_cpr18
-- utter_cbn_faq_cpr19
-- utter_cbn_faq_cpr20
-- utter_cbn_faq_cpr21
-- utter_cbn_faq_dfd22
-- utter_cbn_faq_cpr23
-- utter_cbn_faq_cpr24
-- utter_cbn_faq_cpr25
-- utter_cbn_faq_cpr26
-- utter_cbn_faq_cpr27
-- utter_cbn_faq_cpr28
-- utter_cbn_faq_cpr29
-- utter_cbn_faq_cpr30
-- utter_cbn_faq_cpr31
-- utter_cbn_faq_cpr32
-- utter_cbn_faq_cpr33
-- utter_cbn_faq_cpr34
-- utter_cbn_faq_cpr35
-- utter_cbn_faq_dfd36
-- utter_cbn_faq_cpr37
-- utter_cbn_faq_cpr38
-- utter_cbn_faq_cpr39
-- utter_cbn_faq_cpr40
-- utter_cbn_faq_cpr41
-- utter_cbn_faq_cpr42
-- utter_cbn_faq_cpr43
-- utter_cbn_faq_cpr44
-- utter_cbn_faq_cpr45
-- utter_cbn_faq_cpr46
-- utter_cbn_faq_cpr47
-- utter_cbn_faq_cpr48
-- utter_cbn_faq_cpr49
+  - utter_greet
+  - utter_goodbye
+  - utter_carryon
+  - utter_cbnweb
+  - utter_iamabot
+  - utter_cheer_up
+  - utter_welcome_message
+  - utter_did_that_help
+  - utter_fallback
+  - action_my_fallback
+  - utter_cbn_faq_it2
+  - utter_cbn_faq_it1
+  - utter_cbn_faq_it3
+  - utter_cbn_faq_it4
+  - utter_cbn_faq_it5
+  - utter_cbn_faq_lc1
+  - utter_cbn_faq_lc2
+  - utter_cbn_faq_dfd1
+  - utter_cbn_faq_dfd2
+  - utter_cbn_faq_dfd3
+  - utter_cbn_faq_dfd4
+  - utter_cbn_faq_dfd5
+  - utter_cbn_faq_dfd6
+  - utter_cbn_faq_dfd7
+  - utter_cbn_faq_dfd8
+  - utter_cbn_faq_dfd9
+  - utter_cbn_faq_dfd10
+  - utter_cbn_faq_dfd11
+  - utter_cbn_faq_dfd12
+  - utter_cbn_faq_dfd13
+  - utter_cbn_faq_dfd14
+  - utter_cbn_faq_dfd15
+  - utter_cbn_faq_dfd16
+  - utter_cbn_faq_dfd17
+  - utter_cbn_faq_dfd18
+  - utter_cbn_faq_dfd19
+  - utter_cbn_faq_dfd20
+  - utter_cbn_faq_dfd21
+  - utter_cbn_faq_dfd22
+  - utter_cbn_faq_dfd23
+  - utter_cbn_faq_dfd24
+  - utter_cbn_faq_dfd25
+  - utter_cbn_faq_dfd26
+  - utter_cbn_faq_dfd27
+  - utter_cbn_faq_dfd28
+  - utter_cbn_faq_dfd29
+  - utter_cbn_faq_dfd30
+  - utter_cbn_faq_dfd31
+  - utter_cbn_faq_dfd32
+  - utter_cbn_faq_dfd33
+  - utter_cbn_inf_rate
+  - utter_cbn_exchange_rate
+  - utter_cbn_mpr_rate
+  - utter_cbn_oil_price_rate
+  - utter_cbn_faq_cpr1
+  - utter_cbn_faq_cpr2
+  - utter_cbn_faq_cpr3
+  - utter_cbn_faq_cpr4
+  - utter_cbn_faq_cpr5
+  - utter_cbn_faq_cpr6
+  - utter_cbn_faq_cpr7
+  - utter_cbn_faq_cpr8
+  - utter_cbn_faq_cpr9
+  - utter_cbn_faq_cpr10
+  - utter_cbn_faq_cpr11
+  - utter_cbn_faq_cpr12
+  - utter_cbn_faq_cpr13
+  - utter_cbn_faq_cpr14
+  - utter_cbn_faq_cpr15
+  - utter_cbn_faq_cpr16
+  - utter_cbn_faq_cpr17
+  - utter_cbn_faq_cpr18
+  - utter_cbn_faq_cpr19
+  - utter_cbn_faq_cpr20
+  - utter_cbn_faq_cpr21
+  - utter_cbn_faq_dfd22
+  - utter_cbn_faq_cpr23
+  - utter_cbn_faq_cpr24
+  - utter_cbn_faq_cpr25
+  - utter_cbn_faq_cpr26
+  - utter_cbn_faq_cpr27
+  - utter_cbn_faq_cpr28
+  - utter_cbn_faq_cpr29
+  - utter_cbn_faq_cpr30
+  - utter_cbn_faq_cpr31
+  - utter_cbn_faq_cpr32
+  - utter_cbn_faq_cpr33
+  - utter_cbn_faq_cpr34
+  - utter_cbn_faq_cpr35
+  - utter_cbn_faq_dfd36
+  - utter_cbn_faq_cpr37
+  - utter_cbn_faq_cpr38
+  - utter_cbn_faq_cpr39
+  - utter_cbn_faq_cpr40
+  - utter_cbn_faq_cpr41
+  - utter_cbn_faq_cpr42
+  - utter_cbn_faq_cpr43
+  - utter_cbn_faq_cpr44
+  - utter_cbn_faq_cpr45
+  - utter_cbn_faq_cpr46
+  - utter_cbn_faq_cpr47
+  - utter_cbn_faq_cpr48
+  - utter_cbn_faq_cpr49
+entities:
+  - https
+intents:
+  - get_started
+  - out_of_scope
+  - greet
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - goodbye
+  - carryon
+  - cbnweb
+  - cbn_faq_it1
+  - cbn_faq_it2
+  - cbn_faq_it3
+  - cbn_faq_it4
+  - cbn_faq_it5
+  - cbn_faq_lc1
+  - cbn_faq_lc2
+  - cbn_faq_dfd1
+  - cbn_faq_dfd2
+  - cbn_faq_dfd3
+  - cbn_faq_dfd4
+  - cbn_faq_dfd5
+  - cbn_faq_dfd6
+  - cbn_faq_dfd7
+  - cbn_faq_dfd8
+  - cbn_faq_dfd9
+  - cbn_faq_dfd10
+  - cbn_faq_dfd11
+  - cbn_faq_dfd12
+  - cbn_faq_dfd13
+  - cbn_faq_dfd14
+  - cbn_faq_dfd15
+  - cbn_faq_dfd16
+  - cbn_faq_dfd17
+  - cbn_faq_dfd18
+  - cbn_faq_dfd19
+  - cbn_faq_dfd20
+  - cbn_faq_dfd21
+  - cbn_faq_dfd22
+  - cbn_faq_dfd23
+  - cbn_faq_dfd24
+  - cbn_faq_dfd25
+  - cbn_faq_dfd26
+  - cbn_faq_dfd27
+  - cbn_faq_dfd28
+  - cbn_faq_dfd29
+  - cbn_faq_dfd30
+  - cbn_faq_dfd31
+  - cbn_faq_dfd32
+  - cbn_faq_dfd33
+  - cbn_inf_rate
+  - cbn_exchange_rate
+  - cbn_mpr_rate
+  - cbn_oil_price_rate
+responses:
+  utter_carryon:
+    -
+      text: "Great! please go ahead and ask your questions."
+  utter_cbn_exchange_rate:
+    -
+      text: "As at September 04, the rate is N379."
+  utter_cbn_faq_cpr1:
+    -
+      text: "The CPR are set of guidelines issued by the Central Bank of Nigeria to guide the conduct of Financial Service Providers (FSP) to engender consumer protection and confidence in their relationship with their customers."
+  utter_cbn_faq_cpr10:
+    -
+      text: "FSP have to communicate decisions within ten (10) working days failing which the customer application would be deemed have been granted."
+  utter_cbn_faq_cpr11:
+    -
+      text: "No, except with a written authorization of the customer."
+  utter_cbn_faq_cpr12:
+    -
+      text: "No. except if the loans have a fixed interest rate (i.e. interest rates that are not subject to variations)."
+  utter_cbn_faq_cpr13:
+    -
+      text: "These are terms that are detrimental to the consumer by creating imbalances in the rights and obligations of the consumer under the contract."
+  utter_cbn_faq_cpr14:
+    -
+      text: No.
+  utter_cbn_faq_cpr15:
+    -
+      text: No.
+  utter_cbn_faq_cpr16:
+    -
+      text: "Yes, at the consumer’s request or where it is obvious that the consumer requires such explanation e.g. a visually impaired or illiterate consumer."
+  utter_cbn_faq_cpr17:
+    -
+      text: "Yes. In addition, FSP should disclose features, fees and other associated charges of their products and services."
+  utter_cbn_faq_cpr18:
+    -
+      text: "The communication channels for all correspondences should be agreed with the consumer and disclosed in all contract documents."
+  utter_cbn_faq_cpr19:
+    -
+      text: "No, FSP should comply with the rate, fees and charges published at their engagement point."
+  utter_cbn_faq_cpr2:
+    -
+      text: "The broad objective of the CPR is to protect consumers against unfair and unethical practices by FSP."
+  utter_cbn_faq_cpr20:
+    -
+      text: "No. In addition, FSP should provide consumers with an option to opt out from receiving advertisement and marketing materials."
+  utter_cbn_faq_cpr21:
+    -
+      text: "Total cost of loan is made up of total interest to be paid throughout the duration of the loan, other fees and charges by the FSP and third-party charges where applicable "
+  utter_cbn_faq_cpr22:
+    -
+      text: "FSP should provide a Key Fact Statement that will disclose the total cost of the loan."
+  utter_cbn_faq_cpr23:
+    -
+      text: "Yes, FSP should allow consumers two (2) days to review a draft contract from the date of receipt."
+  utter_cbn_faq_cpr24:
+    -
+      text: "Yes, a consumer has a cooling-off period of three (3) days after signing a contract within which to cancel the contract at no cost. However, this is only applicable to a credit contract."
+  utter_cbn_faq_cpr25:
+    -
+      text: "Yes, FSP should provide monthly statements for all accounts including loans, deposits etc."
+  utter_cbn_faq_cpr26:
+    -
+      text: "Yes. FSP should notify consumers ten (10) days for banks and five (5) days for other financial institutions before implementing the change. Other financial institutions should notify consumers within one (1) day of default that default charge would be applied on their accounts after three (3) days from the repayment due date."
+  utter_cbn_faq_cpr27:
+    -
+      text: "Yes. Banks should notify consumers within three (3) days of default that default charge would be applied on their accounts after seven (7) days from the repayment due date."
+  utter_cbn_faq_cpr28:
+    -
+      text: "FSP should disclose default charges separate from the normal interest charge in the customer’s statement of account."
+  utter_cbn_faq_cpr29:
+    -
+      text: "FSP should provide customers with a loan repayment schedule, that would disclose the amounts to be repaid by the customer and the due date for each repayment/installment."
+  utter_cbn_faq_cpr3:
+    -
+      text: "CPR applies to all financial institution licensed and or regulated by the Central Bank of Nigeria (CBN) which include banks, micro finance banks, primary mortgage banks, finance companies etc."
+  utter_cbn_faq_cpr30:
+    -
+      text: "No. FSP should provide consumer with at least three (3) insurance providers to choose from."
+  utter_cbn_faq_cpr31:
+    -
+      text: "FSP should provide guarantors with periodic updates on loan status they guaranteed to enable them to assess the likelihood of being called upon to repay."
+  utter_cbn_faq_cpr32:
+    -
+      text: "Yes, FSP should issue a Letter of Discharge to customers who have finished repaying their loans within five days from the date of their final repayment."
+  utter_cbn_faq_cpr33:
+    -
+      text: "Yes, FSP should notify consumers when their loan requests are declined. However, the reason for the decline can be provided on request."
+  utter_cbn_faq_cpr34:
+    -
+      text: "No. Except in compliance with a legal obligation."
+  utter_cbn_faq_cpr35:
+    -
+      text: "FSP should protect the privacy and confidentiality of a consumer information. However, consumer also have a responsibility to protect their data and other banking instruments by not disclosing them to unauthorised persons."
+  utter_cbn_faq_cpr36:
+    -
+      text: "It will affect your credit history. Default charges can be applied on your account, thus increasing your indebtedness .  The FSP can sell off the asset used as a collateral for the loan to recover outstanding loan balance (i.e. foreclosure)."
+  utter_cbn_faq_cpr37:
+    -
+      text: "No. FSP should notify the customer before foreclosure. In addition, customers should be given the option to sell off the asset within thirty (30) days, except if the customer waives the option."
+  utter_cbn_faq_cpr38:
+    -
+      text: "No. Only if the person has guaranteed the loan."
+  utter_cbn_faq_cpr39:
+    -
+      text: "Proceeds of sale of the collateral should be immediately applied to the loan account and customers provided with a report of the sale which should disclose the process, proceeds, incidental expenses and the balance."
+  utter_cbn_faq_cpr4:
+    -
+      text: "Yes, basic financial services are accessible to all consumers who meet the minimum requirements irrespective of their social status and physical ability etc."
+  utter_cbn_faq_cpr40:
+    -
+      text: "Consumers should first lodge complaints with their FSP using any of the channels provided by the FSP e.g. phone calls, emails, formal letter etc."
+  utter_cbn_faq_cpr41:
+    -
+      text: "Consumers can escalate their complaints to the Central Bank of Nigeria."
+  utter_cbn_faq_cpr42:
+    -
+      text: "Yes, FSP should acknowledge and issue a unique identification number for all complaints to their customers within 24hours."
+  utter_cbn_faq_cpr43:
+    -
+      text: "FSP should provide emergency channels e.g. fraud hot lines for reporting such issues. Customers should familiarise themselves with the emergency numbers provided."
+  utter_cbn_faq_cpr44:
+    -
+      text: "Yes. FSP should provide a Summary Resolution Communication (SRC) for resolved complaints to consumers within 24hours. The SRC should state the FSP basis for their decision, an option for the consumer to call for a second level review of their complaints and the right of escalation to the CBN or other Alternative Dispute Resolution avenues."
+  utter_cbn_faq_cpr45:
+    -
+      text: "The consumer has thirty (30) days to request for another review of the complaint by the FSP. "
+  utter_cbn_faq_cpr46:
+    -
+      text: "The customer has 90 days from the date of the FSP first decision to escalate the complaint to the CBN."
+  utter_cbn_faq_cpr47:
+    -
+      text: "Yes. If the FSP failed to acknowledge the customer complaints within 3 days."
+  utter_cbn_faq_cpr48:
+    -
+      text: "If the subject matter of the complaint is under litigation or has been decided by a court of law.  If the complaint is being treated or decided by a recognized Alternative Dispute Resolution channel."
+  utter_cbn_faq_cpr49:
+    -
+      text: Yes.
+  utter_cbn_faq_cpr5:
+    -
+      text: "These are savings, deposits and transfers."
+  utter_cbn_faq_cpr6:
+    -
+      text: "Lending fees can only be applied on disbursed amount of a loan."
+  utter_cbn_faq_cpr7:
+    -
+      text: "No, FSP can only charge non-credit related fees to the extent of the credit balance in an account; while the balance of such fees can be charged when the account is funded."
+  utter_cbn_faq_cpr8:
+    -
+      text: "FSP can only change the terms and conditions of a contract if the possibility of such change(s) or variation(s) had been expressly stated in the contract."
+  utter_cbn_faq_cpr9:
+    -
+      text: "Requests or enquiries should be responded to within Five (5) working days."
+  utter_cbn_faq_dfd1:
+    -
+      text: "ABP Stands for the Anchor Borrowers Program."
+  utter_cbn_faq_dfd10:
+    -
+      text: "You must be a farmer. You must provide collateral if your loan amount is above N20,000. The collateral must be in a tangible form or in form of 25% cash security of the intended loan amount in the form of savings."
+  utter_cbn_faq_dfd11:
+    -
+      text: "You can use cash in the bank, stock and shares, life insurance policies, landed property, debenture, guarantors and any other item acceptable by the lending bank."
+  utter_cbn_faq_dfd12:
+    -
+      text: "The agricultural activities eligible for guarantee under the Scheme, include the following; (i) The establishment or management of the production of rubber, oil palm, cocoa, coffee, tea and similar crops; (ii) The cultivation or production of cereal crops, tubers, fruits of all kinds, cotton, beans, groundnuts, sheanuts, benniseed, vegetables, pineapples, banana and plantains; (iii) Animal husbandry viz, poultry, piggery, cattle rearing and the like, fish farming and fish capture and (iv) Processing in general where it is integrated with at least 50.0 per cent of farm output e.g. cassava to garri, oil palm to palm oil and kernel, groundnut to groundnut oil, etc."
+  utter_cbn_faq_dfd13:
+    -
+      text: "Under the ACGSF, farmers will borrow from lending banks including community banks at market-determined rates."
+  utter_cbn_faq_dfd14:
+    -
+      text: "As many times as you wish provided you maintained good loan repayment record with your bank."
+  utter_cbn_faq_dfd15:
+    -
+      text: "You will need to discuss your proposal with your bank, complete necessary application forms, and provide all the required information including things like size of your farm, project cost, your own financial commitment, expected output returns and profitability of the project."
+  utter_cbn_faq_dfd16:
+    -
+      text: "It depends on the gestation period of the agricultural activity you are engaged in."
+  utter_cbn_faq_dfd17:
+    -
+      text: "You can still obtain a loan of N20,000.00 and below supported with a personal guarantee from a reputable person in your community or more than N20,000.00 through being a member of Self Help Group or Cooperative Society."
+  utter_cbn_faq_dfd18:
+    -
+      text: "It means you can obtain a loan of up to N1.0 million as an individual or up to N10.0 million as a cooperative society or corporate entity."
+  utter_cbn_faq_dfd19:
+    -
+      text: "The Central Bank of Nigeria co-ordinates the activities of the Scheme through its Development Finance Department which serves as the Secretariat of the Bankers Sub-committee on SMEEIS."
+  utter_cbn_faq_dfd2:
+    -
+      text: "​MSMEDEF, stands for Micro, Small and Medium Enterprise Development fund."
+  utter_cbn_faq_dfd20:
+    -
+      text: "Until 2005 universal banks (members of the Bankers’ Committee) agreed to set aside 10% of their profit before Tax (PBT) annually for the Scheme. With effect from January, 2006 the amount to be set aside by the banks has been changed to 10% of their profit after Tax (PAT)."
+  utter_cbn_faq_dfd21:
+    -
+      text: "You can discuss with registered professional Fund Managers and Venture Capital Companies which are either independent institutions or subsidiaries of the banks."
+  utter_cbn_faq_dfd22:
+    -
+      text: "To be eligible for bank’s investment under the Scheme, an enterprise, in addition to being a permissible activity under the Scheme, must have a maximum asset base of N500 million (excluding land and working capital), and with no lower limit of staff. In addition, the enterprise must fulfill the following; a. Registration as a Limited Liability Company with Corporate Affairs Commission. b. Compliance with all relevant regulations of the Company and Allied Matters Acts (1990) such as filling of annual returns, including audited financial statements. c. Compliance with all applicable tax laws and regulations and rendition of regular returns to the appropriate authorities."
+  utter_cbn_faq_dfd23:
+    -
+      text: "The bank has a maximum of three (3) years to remain a part owner of the business before the exit strategy as contained in the Memorandum of Understanding (MOU) binding the business relationship. However, if the other party so wishes, the equity arrangement could be renewed. The exit is by selling its shares to the original or owners of the company."
+  utter_cbn_faq_dfd24:
+    -
+      text: "Every legal business in every sector of the economy is qualified for adoption as a SMEEIS project with the exception of trading and financial/bank related investment."
+  utter_cbn_faq_dfd25:
+    -
+      text: "a) Prepare a feasibility report, b) Prepare a 5 year business plan stating the intervention required under the SMEEIS, c) Approach any of the banks in Nigeria, d) The bank will then assess the proposals and communicate approval or otherwise to you."
+  utter_cbn_faq_dfd26:
+    -
+      text: "The SMEEIS guidelines allow investing banks to own either ordinary or preferential shares."
+  utter_cbn_faq_dfd27:
+    -
+      text: "The SMEEIS fund is part of the SMEEIS Reserves of the banks."
+  utter_cbn_faq_dfd28:
+    -
+      text: "The CBN has a register for verified and accepted projects under SMEEIS."
+  utter_cbn_faq_dfd29:
+    -
+      text: "The total amount set aside under the SMEEIS by any bank is always stated in its annual audited accounts under SMEEIS Reserve."
+  utter_cbn_faq_dfd3:
+    -
+      text: "The Agricultural Credit Guarantee Scheme Fund (ACGSF) was established by Decree No. 20 of 1977 to mitigate the risks of banks in agricultural lending and hence encourage them to continue to extend credit to it. "
+  utter_cbn_faq_dfd30:
+    -
+      text: "The Agricultural Credit Guarantee Scheme Fund (ACGSF) was established by Decree No. 20 of 1977 to mitigate the risks of banks in agricultural lending and hence encourage them to continue to extend credit to it. "
+  utter_cbn_faq_dfd31:
+    -
+      text: "SMEEIS means Small and Medium Enterprises Equity Investment Scheme. It was initiated by the Banker’s Committee at its 246th meeting held on 21st December, 1999."
+  utter_cbn_faq_dfd32:
+    -
+      text: "The guidelines stipulate that 10% SMEEIS funds should be set aside for micro financing in the form of equity investment in microfinance banks or wholesale funds for on-lending by microfinance banks."
+  utter_cbn_faq_dfd33:
+    -
+      text: "The objectives are to a) Facilitate the flow of funds from banks for the establishment of new, viable SME projects, expansion of existing industries"
+  utter_cbn_faq_dfd4:
+    -
+      text: "You can go to any commercial bank or Central Bank branch office in Nigeria and make enquiries there."
+  utter_cbn_faq_dfd5:
+    -
+      text: "You must be a farmer. You must provide collateral if your loan amount is above N20,000. The collateral must be in a tangible form or in form of 25% cash security of the intended loan amount in the form of savings."
+  utter_cbn_faq_dfd6:
+    -
+      text: "Small farmers have benefited immensely from ACGS. This group of farmers form 90% of the beneficiaries since the inception of the Scheme."
+  utter_cbn_faq_dfd7:
+    -
+      text: "N20,000.00 (twenty thousand naira) and below without collateral. For amounts higher than N20,000.00, you will need to provide collateral."
+  utter_cbn_faq_dfd8:
+    -
+      text: "A farmer intending to obtain a loan must first open account with a bank operating the Agric Credit Guarantee Scheme. You should the  ACGS application form and return to the bank."
+  utter_cbn_faq_dfd9:
+    -
+      text: "By establishing a Trust Fund with banks that will serve as the platform for lending to the host community, the Trust Fund will form part of the guarantee. "
+  utter_cbn_faq_it1:
+    -
+      text: "Enterprise Resource Planning (ERP) 2. Temenos T24 3. electonic Financial Analysis and Surveillance System (eFASS) 4. Real Time Gross Settlement System (RTGS) 5. Enterprise Management and Security System EMS) 6. Corporate Performance Management System (CPM)"
+  utter_cbn_faq_it2:
+    -
+      text: "It is an acronym for electronic Financial Analysis and Surveillance System."
+  utter_cbn_faq_it3:
+    -
+      text: "It is an acronym for Enterprise Resource Planning."
+  utter_cbn_faq_it4:
+    -
+      text: "RTGS is an acronym for Real Time Gross Settlement."
+  utter_cbn_faq_it5:
+    -
+      text: "It is an acronym for TEMENOS T24. It is being interfaced with a number of applications being deployed in the Bank. These include Oracle ERP (GL, VMS, AP, etc); RTGS; eFASS; MICR; BANKOS."
+  utter_cbn_faq_lc1:
+    -
+      text: "Yes. As a legal entity created by an Act of Parliament the Central Bank of Nigeria is a juristic person and can therefore sue and be sued as stated in section 1(2) of the Central Bank of Nigeria Act."
+  utter_cbn_faq_lc2:
+    -
+      text: "The Central Bank of Nigeria derives its regulatory and supervisory powers from the Central Bank of Nigeria Act, 1991 and Banks and Other Financial Institutions Act, 1991 (As Amended)."
+  utter_cbn_inf_rate:
+    -
+      text: "As at July 2020, Inflation rate  is 12.82%."
+  utter_cbn_mpr_rate:
+    -
+      text: "As at August 28, MPR rate is 12.5%."
+  utter_cbn_oil_price_rate:
+    -
+      text: "As at August 28, crude oil price is $44.94."
+  utter_cbnweb:
+    -
+      text: "Please visit [www.cbn.gov.ng](https://www.cbn.gov.ng/) for general enquiries or contact us via [contactcbn@cbn.gov.ng] or [+234 700 225 5226] to speak with our HelpDesk."
+  utter_cheer_up:
+    -
+      image: "https://i.imgur.com/nGF1K8f.jpg"
+      text: "Here is something to cheer you up:"
+  utter_did_that_help:
+    -
+      text: "Please contact us via [contactcbn@cbn.gov.ng] or [+234 700 225 5226]. Did that help you?"
+  utter_fallback:
+    -
+      text: "Not sure what you mean! Please visit [www.cbn.gov.ng](https://www.cbn.gov.ng/) for general enquiries or contact us via [contactcbn@cbn.gov.ng] or [+234 700 225 5226] for more details."
+  utter_goodbye:
+    -
+      text: "It was nice talking to you today! Have a nice day! Bye for now."
+  utter_greet:
+    -
+      text: "Hello, how can I help you today?"
+  utter_happy:
+    -
+      buttons:
+        -
+          payload: /goodbye
+          title: false
+        -
+          payload: /carryon
+          title: true
+      text: "It was nice talking to you today ! Do you have any more questions?"
+  utter_iamabot:
+    -
+      text: "I am a bot, powered by the DTx team"
+  utter_welcome_message:
+    -
+      buttons:
+        -
+          payload: /carryon
+          title: "Farmer Queries(DFD)"
+        -
+          payload: /carryon
+          title: "Consumer Protection(CPD)"
+        -
+          payload: /cbnweb
+          title: "General Enquiries"
+        -
+          payload: /carryon
+          title: "Forex Helpdesk"
+        -
+          payload: /goodbye
+          title: Goodbye
+      text: "Hello! I am Rakiya! Your AI-Bot assistant. How can I help you today?"
+session_config:
+  carry_over_slots_to_new_session: true
+  session_expiration_time: 60
