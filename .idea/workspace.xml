@@ -58,8 +58,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/domain.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="496" column="5" lean-forward="true" selection-start-line="496" selection-start-column="5" selection-end-line="496" selection-end-column="5" />
+            <state relative-caret-position="240">
+              <caret line="490" column="5" lean-forward="true" selection-start-line="490" selection-start-column="5" selection-end-line="490" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -106,9 +106,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-902" />
-    <option name="y" value="-1087" />
-    <option name="width" value="1589" />
+    <option name="x" value="1149" />
+    <option name="y" value="-1030" />
+    <option name="width" value="1440" />
     <option name="height" value="814" />
   </component>
   <component name="ProjectView">
@@ -165,10 +165,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-902" y="-1087" width="1589" height="814" extended-state="0" />
-    <editor active="true" />
+    <frame x="1149" y="-1030" width="1440" height="814" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2257653" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -232,8 +231,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/domain.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="496" column="5" lean-forward="true" selection-start-line="496" selection-start-column="5" selection-end-line="496" selection-end-column="5" />
+        <state relative-caret-position="240">
+          <caret line="490" column="5" lean-forward="true" selection-start-line="490" selection-start-column="5" selection-end-line="490" selection-end-column="5" />
         </state>
       </provider>
     </entry>
