@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f13081eb-bed4-41f8-8da9-9052933870ed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain.yml" beforeDir="false" afterPath="$PROJECT_DIR$/domain.yml" afterDir="false" />
-    </list>
+    <list default="true" id="f13081eb-bed4-41f8-8da9-9052933870ed" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +27,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="344">
-                <caret line="335" lean-forward="true" selection-start-line="335" selection-end-line="335" />
+                <caret line="335" selection-start-line="335" selection-end-line="335" />
               </first_editor>
               <second_editor />
             </state>
@@ -61,8 +58,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/domain.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="489" column="21" lean-forward="true" selection-start-line="489" selection-start-column="21" selection-end-line="489" selection-end-column="21" />
+            <state relative-caret-position="330">
+              <caret line="496" column="5" lean-forward="true" selection-start-line="496" selection-start-column="5" selection-end-line="496" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -212,7 +209,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="344">
-            <caret line="335" lean-forward="true" selection-start-line="335" selection-end-line="335" />
+            <caret line="335" selection-start-line="335" selection-end-line="335" />
           </first_editor>
           <second_editor />
         </state>
@@ -235,8 +232,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/domain.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="489" column="21" lean-forward="true" selection-start-line="489" selection-start-column="21" selection-end-line="489" selection-end-column="21" />
+        <state relative-caret-position="330">
+          <caret line="496" column="5" lean-forward="true" selection-start-line="496" selection-start-column="5" selection-end-line="496" selection-end-column="5" />
         </state>
       </provider>
     </entry>
