@@ -515,12 +515,10 @@ responses:
   utter_happy:
     -
       buttons:
-        -
-          payload: /goodbye
-          title: false
-        -
-          payload: /carryon
-          title: true
+        - payload: /goodbye
+          title: No
+        - payload: /carryon
+          title: Yes
       text: "It was nice talking to you today ! Do you have any more questions?"
   utter_iamabot:
     -
