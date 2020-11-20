@@ -216,7 +216,7 @@ responses:
       text: "Great! please go ahead and ask your questions."
   utter_cbn_exchange_rate:
     -
-      text: "As at November 17, the rate is N379."
+      text: "As at November 19, the rate is N379."
   utter_cbn_faq_cpr1:
     -
       text: "The CPR are set of guidelines issued by the Central Bank of Nigeria to guide the conduct of Financial Service Providers (FSP) to engender consumer protection and confidence in their relationship with their customers."
