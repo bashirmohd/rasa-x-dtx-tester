@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f13081eb-bed4-41f8-8da9-9052933870ed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/domain.yml" beforeDir="false" afterPath="$PROJECT_DIR$/domain.yml" afterDir="false" />
-    </list>
+    <list default="true" id="f13081eb-bed4-41f8-8da9-9052933870ed" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,12 +10,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data/nlu.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-128">
-                <caret line="167" column="2" selection-start-line="167" selection-start-column="2" selection-end-line="167" selection-end-column="56" />
+              <first_editor relative-caret-position="277">
+                <caret line="136" column="2" lean-forward="true" selection-start-line="136" selection-start-column="2" selection-end-line="136" selection-end-column="29" />
               </first_editor>
               <second_editor />
             </state>
@@ -53,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/domain.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="221" column="75" lean-forward="true" selection-start-line="221" selection-start-column="75" selection-end-line="221" selection-end-column="75" />
+            <state relative-caret-position="345">
+              <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -80,6 +78,7 @@
       <find>hel</find>
       <find>dfd22</find>
       <find>exchange</find>
+      <find>379</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -105,9 +104,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-726" />
-    <option name="y" value="-1070" />
-    <option name="width" value="1440" />
+    <option name="x" value="98" />
+    <option name="y" value="23" />
+    <option name="width" value="1207" />
     <option name="height" value="814" />
   </component>
   <component name="ProjectView">
@@ -159,10 +158,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-726" y="-1070" width="1440" height="814" extended-state="0" />
+    <frame x="96" y="88" width="1207" height="814" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2984823" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -197,16 +196,6 @@
         <state relative-caret-position="-148" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/nlu.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-128">
-            <caret line="167" column="2" selection-start-line="167" selection-start-column="2" selection-end-line="167" selection-end-column="56" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/stories.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -222,8 +211,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/domain.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="221" column="75" lean-forward="true" selection-start-line="221" selection-start-column="75" selection-end-line="221" selection-end-column="75" />
+        <state relative-caret-position="345">
+          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/nlu.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="277">
+            <caret line="136" column="2" lean-forward="true" selection-start-line="136" selection-start-column="2" selection-end-line="136" selection-end-column="29" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
