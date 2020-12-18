@@ -216,7 +216,7 @@ responses:
       text: "Great! please go ahead and ask your questions."
   utter_cbn_exchange_rate:
     -
-      text: "As at November 26, the rate is N379."
+      text: "As at December 17, the rate is N379."
   utter_cbn_faq_cpr1:
     -
       text: "The CPR are set of guidelines issued by the Central Bank of Nigeria to guide the conduct of Financial Service Providers (FSP) to engender consumer protection and confidence in their relationship with their customers."
@@ -486,13 +486,13 @@ responses:
       text: "The Central Bank of Nigeria derives its regulatory and supervisory powers from the Central Bank of Nigeria Act, 1991 and Banks and Other Financial Institutions Act, 1991 (As Amended)."
   utter_cbn_inf_rate:
     -
-      text: "As at October 2020, Inflation rate  is 14.23%."
+      text: "As at November 2020, Inflation rate  is 14.23%."
   utter_cbn_mpr_rate:
     -
-      text: "As at November 24, MPR rate is 11.5%."
+      text: "As at December 16, MPR rate is 11.5%."
   utter_cbn_oil_price_rate:
     -
-      text: "As at November 24, crude oil price is $47.48."
+      text: "As at December 16, crude oil price is $51.26."
   utter_cbnweb:
     -
       text: "Please visit [www.cbn.gov.ng](https://www.cbn.gov.ng/) for general enquiries or contact us via [contactcbn@cbn.gov.ng] or [+234 700 225 5226] to speak with our HelpDesk."
